@@ -6,7 +6,13 @@ const Hero = () => {
   return (
     <div className='hero'>
         <img src={profile_img} alt=""  />
-        <h1>I'm ISuru Dayananda, Frontend Developer, Undergraduate</h1>
+        <h1><span>I'm ISuru Dayananda,</span> Frontend Developer, Undergraduate</h1>
+        <p>I am a Fronend developer </p>
+        <div className="hero-action">
+          <div className="hero-connect">Connect With Me</div>
+          <div className="hero-resume">My resume</div>
+
+        </div>
 
     </div>
   )
