@@ -25,7 +25,13 @@ const About = () => {
                     <div className="about-skill"><p>Next JS</p><hr style={{width:"50%"}}/></div>
                 </div>
             </div>
-        </div>  
+        </div> 
+        <div className="about-achievements">
+            <div className="about-achievement">
+                <h1></h1>
+                <p></p>
+            </div>
+        </div> 
     </div>
   )
 }
